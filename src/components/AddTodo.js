@@ -42,8 +42,8 @@ export const AddTodo = ({ addTodo }) => {
                         <textarea className="form-control" id="validationTextarea" placeholder="Add description" style={{ height: "100px" }} value={desc} onChange={(e) => { setDesc(e.target.value) }} required></textarea>
                     </div>
                     <div className="col-md-3">
-                        <button className="btn btn-primary me-1" type="submit">Submit form</button>
-                        <button className="btn btn-danger ms-1" type="reset" onClick={clear}>Reset form</button>
+                        <button className="btn btn-primary me-1" type="submit">Add todo</button>
+                        <button className="btn btn-danger ms-1" type="reset" onClick={clear}>Clear</button>
                     </div>
                 </form>
             </div>
